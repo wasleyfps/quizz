@@ -59,7 +59,7 @@ body {
 }
 
 #restart{
-  background-color: #E78230;
+  background-color: #30bce7;
   color: #FFF;
   font-weight: bold;
   height: 50px;
@@ -73,8 +73,8 @@ body {
 
 #restart:hover{
   background-color: transparent;
-  border-color: #E78230;
-  color: #E78230;
+  border-color: #30bce7;
+  color: #30bce7;
 }
 
 /* Quizz Container */
@@ -114,14 +114,14 @@ body {
 }
 
 #answers-box button:hover{
-  background-color: #E78230;
+  background-color: #30bce7;
   color: #FFF;
 }
 
 #answers-box .btn-letter{
   font-size: 30px;
   font-weight: bold;
-  background-color: #E78230;
+  background-color: #30bce7;
   color: #FFF;
   border-radius: 50%;
   line-height: 40px;

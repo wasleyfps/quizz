@@ -43,6 +43,6 @@ Copyright © 2023 Wasley Carvalho / Matheus Battisti
 
 ## 💡 Expressões de gratidão
 
-* Um agradecimento publicamente.
+* Um projeto que fez eu praticar alguns funcionalidade que nunca tinha visto antes.
 * Para suporte, mande um email para wasleyoliveiradecarvalho@gmail.com
 * Link para o seu linkedin [Meu linkedin](https://www.linkedin.com/in/wasleyfps/)

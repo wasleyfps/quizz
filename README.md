@@ -30,7 +30,6 @@ Basta clicar no link do github pages e confira os detalhes do projeto.
 
 * **Wasley Carvalho** - *Desenvolvedor* - [Wasley](https://github.com/wasleyfps)
 
-
 ## 📄 Licença
 
 Copyright © 2023 Wasley Carvalho / Matheus Battisti

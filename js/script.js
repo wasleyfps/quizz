@@ -168,7 +168,6 @@ function nextQuestion() {
 function showSuccessMessage() {
   hideOrShowQuizz();
 
-  // trocar dados tela de sucesso
   // calcular score
   const score = ((points / questions.length) * 100).toFixed(2);
 
@@ -176,12 +175,20 @@ function showSuccessMessage() {
   displayScore.textContent = score.toString();
 
   //alterar o número de perguntas corretas
-  const correctAnswers = document.querySelector('#correct-answers');
+  const correctAnswers = document.querySelector('#correct-answer');
   correctAnswers.textContent = points;
 
   // alterar o total de perguntas
   const totalQuestions = document.querySelector('#questions-qty');
   totalQuestions.textContent = questions.length;
+
+  // alterar mensagem de acordo com o desempenho
+  const messageContainer = document.querySelector('#score-container h2');
+  if (points === questions.length) {
+    messageContainer.textContent = "Parabéns!";
+  } else {
+    messageContainer.textContent = "Poxa... tente estudar mais!";
+  }
 }
 
 // mostra ou esonde o score
